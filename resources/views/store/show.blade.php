@@ -15,9 +15,9 @@
 				<p>Precio: ${{ number_format($product->price,2) }}</p> 
 				<p>
 					<a href="">Obtener</a>
-					<a href="{{url('/home')}}">Regresar</a>
 				</p>
 		</div>
 
 	</div>
+	<p><a href="{{url('/home')}}">Regresar</a></p>
 @stop

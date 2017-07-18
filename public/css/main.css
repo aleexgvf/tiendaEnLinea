@@ -1,0 +1,41 @@
+body
+{
+	background: url('http://jenoyjenkins.vpweb.com/011.png');
+}
+
+footer
+{
+	background-color: #222;
+	text-align: center;
+	font-style: red;
+}
+
+footer p
+{
+	text-align: justify;
+	color: red;
+}
+
+footer h3
+{
+	color: red;
+}
+
+ul.redes li
+{
+	display: inline-block;
+}
+
+ul.redes li a
+{
+	color:red;
+}
+
+.avatar
+{
+	border:5px solid red;
+	border-radius: 50%;
+	float:left;
+	height: 100px;
+	width: 100px;
+}
