@@ -1,8 +1,17 @@
 body
 {
-	background: url('http://jenoyjenkins.vpweb.com/011.png');
+	background-color: white;
 }
 
+/* Barra nav*/
+.main-title
+{
+	color:red !important;
+	font-size:22px;
+}
+
+
+/*footer*/
 footer
 {
 	background-color: #222;
@@ -38,4 +47,36 @@ ul.redes li a
 	float:left;
 	height: 100px;
 	width: 100px;
+}
+
+/*Index*/
+#products {
+position: relative;
+max-width: 100%;
+width: 100%;
+}
+img {
+width: 100px;
+max-width: 100%;
+height: auto;
+}
+.white-panel {
+position: absolute;
+background: white;
+box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+padding: 10px;
+}
+.white-panel h1 {
+font-size: 1em;
+}
+.white-panel h1 a {
+color: #A92733;
+}
+.white-panel:hover {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+margin-top: -5px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
 }

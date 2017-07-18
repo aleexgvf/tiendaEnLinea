@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand main-title" href="{{url('/home')}}"><img alt="Brand" src="http://4.bp.blogspot.com/-7QxstU_qP8o/V8OmtRFxBvI/AAAAAAAAFks/DSGRv6LFoBkxuWWd7ziPHuZ4TZBnfzzXQCK4B/s1600/Manga%2Bvector%2Blogo.png" width="70" class="avatar"></a>
+      <a class="navbar-brand main-title" href="{{url('/home')}}">MS_NEII</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
