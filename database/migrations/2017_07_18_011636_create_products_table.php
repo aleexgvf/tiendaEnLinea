@@ -26,7 +26,7 @@ class CreateProductsTable extends Migration
             $table->foreing('category_id')
                   ->references('id')
                   ->on('categories')
-                  ->onDelete('cascade');
+                  ->onDelete('cascade'); 
             $table->timestamps();
         });
     }

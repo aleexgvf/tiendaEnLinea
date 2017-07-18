@@ -13,8 +13,9 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background: url('http://jenoyjenkins.vpweb.com/011.png');
+                background-color: blue;
+                color: red;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -50,7 +51,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: red;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -78,16 +79,10 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
+                <div> 
+                <a href="{{url('/index')}}"><img src="http://4.bp.blogspot.com/-7QxstU_qP8o/V8OmtRFxBvI/AAAAAAAAFks/DSGRv6LFoBkxuWWd7ziPHuZ4TZBnfzzXQCK4B/s1600/Manga%2Bvector%2Blogo.png" width="650" ></div>
+                </a>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
         </div>
