@@ -1,0 +1,13 @@
+1. Primero se crea la carpeta del proyecto.
+2. Comenzamos a crear los "Models" para el proyecto; estos
+   a su vez se crean con el comando "php artisan make:model -m".
+   NOTA: el "-m" es para crear unos archivos de migracion dentro
+   de laravel para la obtencion de datos dentro de la Base de Datos.
+3. Se crearon los models de las tablas "Categories" y "Products".
+4. Dentro de SublimeText en la carpeta "database" se encuentra una
+   subcarpeta llamada "migrations" ahi es donde se encuentran los ar-
+   chivos que se crearon junto con los "Models".
+5. Una vez localizados los archivos de los "migrations" se procede a
+   agregarle dentro de uno de los dos metodos que contiene este archivo
+   el nombre de los atributos de la tabla y de que tipo son.
+   NOTA: Estos se colocan dentro del método "up".
