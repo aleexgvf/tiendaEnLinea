@@ -80,7 +80,7 @@
 
             <div class="content">
                 <div> 
-                <a href="{{url('/index')}}"><img src="http://4.bp.blogspot.com/-7QxstU_qP8o/V8OmtRFxBvI/AAAAAAAAFks/DSGRv6LFoBkxuWWd7ziPHuZ4TZBnfzzXQCK4B/s1600/Manga%2Bvector%2Blogo.png" width="650" ></div>
+                <a href="{{url('/home')}}"><img src="http://4.bp.blogspot.com/-7QxstU_qP8o/V8OmtRFxBvI/AAAAAAAAFks/DSGRv6LFoBkxuWWd7ziPHuZ4TZBnfzzXQCK4B/s1600/Manga%2Bvector%2Blogo.png" width="650" ></div>
                 </a>
                 <div class="links">
                 </div>

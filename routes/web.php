@@ -15,4 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', 'StoreController@index');
+
+//pagina Principal
+Route::get('/home', 'StoreController@index');
+
+//Detalle del producto
+Route::get('product/{slug}', [
+	'as' => 'product-detail',
+	'uses'=> 'StoreController@show'
+	]);
