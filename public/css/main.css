@@ -3,7 +3,7 @@ body
 	background-color: white;
 }
 
-/* Barra nav*/
+/* ----------------------------------------Barra nav------------------------------------------------*/
 .main-title
 {
 	color:red !important;
@@ -11,7 +11,7 @@ body
 }
 
 
-/*footer*/
+/*------------------------------------------------------footer------------------------------*/
 footer
 {
 	background-color: #222;
@@ -49,14 +49,14 @@ ul.redes li a
 	width: 100px;
 }
 
-/*Index*/
+/*----------------------------------------------------Index------------------------------------------*/
 #products {
 position: relative;
 max-width: 100%;
 width: 100%;
 }
 img {
-width: 100px;
+width: 100%;
 max-width: 100%;
 height: auto;
 }
@@ -79,4 +79,14 @@ margin-top: -5px;
 -moz-transition: all 0.3s ease-in-out;
 -o-transition: all 0.3s ease-in-out;
 transition: all 0.3s ease-in-out;
+}
+
+
+/*Show-----------------------------------------------------------------------*/
+
+.product-block
+{
+	background-color: FF0000;
+	border-radius: 1em;
+	padding: 1em;
 }

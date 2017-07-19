@@ -2,6 +2,8 @@
 
 @section('content')
 
+@include('store.partials.slider')
+
 <div class='container text-center'>
 	<div id="products">
 		@foreach($products as $p)
@@ -20,5 +22,8 @@
 		@endforeach
 	</div>
 </div>
+<br>
+<br>
+<br>
 
 @stop
