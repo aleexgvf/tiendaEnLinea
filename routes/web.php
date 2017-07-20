@@ -25,6 +25,11 @@ Route::get('cart/add/{product}', [
  ]);
 //});﻿
 
+Route::get('cart/delete/{product}', [
+	'as' => 'cart-delete',
+	'uses' => 'CartController@delete'
+	]);
+
 
 
 //-----------------------------------------------
@@ -45,6 +50,6 @@ Route::get('product/{slug}', [
 	'uses'=> 'StoreController@show'
 	]);
 
-//mostrar el carrito de compras
+
 		
 
