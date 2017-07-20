@@ -32,10 +32,12 @@ class CartController extends Controller
     	return redirect()->route('cart-show');
     }
     //delete item
+
     public function delete(Product $product)
     {
     	$cart = \Session::get('cart');
     	unset($cart[$product->slug]);
+    	\Session::put('cart', $cart);
 
     	return redirect()->route('cart-show');
     }
