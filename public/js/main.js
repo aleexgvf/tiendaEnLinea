@@ -6,4 +6,17 @@ $(document).ready(function() {
     	margin_bottom: 50,
 		single_column_breakpoint: 700
 	});
+
+//update item
+
+	$(".btn-update-item").On('click', function(e){
+		e.preventDefault();
+
+		var id = $(this).data('id');
+		var href = $(this).data('href');
+		var quantity = $("#product_" + id).val();
+
+		window.location.href = href + "/" + quantity;
+	});
+
 });
