@@ -63,4 +63,4 @@ Route::get('product/{slug}', [
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'StoreController@index')->name('home');
