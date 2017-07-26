@@ -64,3 +64,4 @@ Route::get('product/{slug}', [
 Auth::routes();
 
 Route::get('/home', 'StoreController@index')->name('home');
+Route::get('/logout', 'LoginController@getLogout')->name('logout');

@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	@include('store.partials.nav')
+	@include(Auth::user() ? 'store.partials.navL' : 'store.partials.nav');
 
 	@yield('content')
 

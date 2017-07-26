@@ -37,6 +37,14 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
+      public function getLogout()
+    {
+        $this->auth->logout();
+         echo "Ha cerrado sesion ";
+        return redirect('/home');
+
+    }
+
     public function redirectTo()
     {
         if(auth()->user()->rol==1)
