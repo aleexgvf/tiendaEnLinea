@@ -65,3 +65,8 @@ Auth::routes();
 
 Route::get('/home', 'StoreController@index')->name('home');
 Route::get('/logout', 'LoginController@getLogout')->name('logout');
+
+//rutas de perfiles
+
+Route::get('perfiles/profile', 'perfilesController@profile');
+Route::post('perfiles/updateProfile', 'perfilesController@updateprofile');

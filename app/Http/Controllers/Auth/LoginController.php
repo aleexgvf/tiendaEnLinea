@@ -49,6 +49,7 @@ class LoginController extends Controller
     {
         if(auth()->user()->rol==1)
         {
+            
             return "ejemplo";
         }
         else
