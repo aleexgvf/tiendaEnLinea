@@ -74,7 +74,7 @@
 	<hr>
 	<p>
 		<a href="{{url('/home')}}" class="btn btn-primary"><i class="fa fa-chevron-circle-left"></i>  Seguir Comprando</a>
-		<a href="{{url('/home')}}" class="btn btn-primary">Pagar <i class="fa fa-chevron-circle-right"></i></a>
+		<a href="https://www.paypal.com/invoice/payerView/details/INV2-XYRF-YAV7-FAEA-9AJV" class="btn btn-primary"><i class="fa fa-chevron-circle-left"></i>  Pagar</a>
 	</p>
 </div>
 
